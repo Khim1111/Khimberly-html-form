@@ -8,7 +8,7 @@ body{
 
 label {
     display: inline-block;
-    background-color: rgba(64, 219, 167, 0.635);
+   /* background-color: rgba(64, 219, 167, 0.635);*/
     color: black;
 margin:0.5rem 0;
 }
