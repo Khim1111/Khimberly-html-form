@@ -31,6 +31,7 @@ form{
     max-width: 500px;
     min-width: 300px;
     width: 60vw;
+    padding-bottom: 2em;
 
 }
 
@@ -40,7 +41,37 @@ label {
     color: black;
 margin:0.5rem 0;
 }
+input,textarea, select {
+    width: 100%;
+    margin: 10px 0 0;
+    min-height: 2em;
+}
+
+
+input,textarea{
+    /*background-color: rgba(221,191,155,0.229);*/
+    border: 1px solid rgba(197,178,134.0.8);
+    color: rgb(2, 22, 39);
+    
+}
+
+.inline{
+    width: unset;
+    margin: 0 0.5em 0;
+    vertical-align: middle;
+
+}
 textarea {
-    color: aquamarine;
+    color: black;
+}
+
+input [type="submit"]{
+display:block;
+margin: 0 auto;
+width: 15%;
+}
+
+a{
+    text-decoration: none;
 }
 /**********************End of Forms style************************/

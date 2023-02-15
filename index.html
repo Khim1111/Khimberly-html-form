@@ -18,19 +18,19 @@
   <form action="#">
     <!------------------Fieldset 1 First Name, Last Name, Email, Password Fields----------------->
     <fieldset>
-      <label for="#">Enter your First Name:<input type="firstName" required /></label>
-      <label for="#">Enter your Last Name:<input type="lastName" required /></label>
-      <label for="#">Enter your Email:<input type="email"  name="email" required /></label>
+      <label for="#">Enter your First Name:<input type="firstName" placeholder= "Enter your First Name" required /></label>
+      <label for="#">Enter your Last Name:<input type="lastName" placeholder= "Enter your Last Name" required /></label>
+      <label for="#">Enter your Email:<input type="email"  name="email" placeholder= "@example.com"required /></label>
       <!--<label for="#">Enter your Password:<input type="password" minlength= "8" required></label><br> ---------->
-  <label for="#">Enter your Password:<input type="password" minlength="8" pattern="[a-z0-5]{8}"  name="password" required /></label>
+  <label for="#">Enter your Password:<input type="password" minlength="8" pattern="[a-z0-5]{8}"  name="password" placeholder= "Enter 8 characters a-z 0-5 "required /></label>
     </fieldset>
-    <!------------------Fieldset 2----------------->
+    <!------------------Fieldset 2-----------------> 
     <fieldset>
-      <label for="#"><input type="radio" name="account-type" id="">Personal
+      <label for="#"><input class="inline" type="radio" name="account-type" id="">Personal
         Account</label>
-      <label for="#"><input type="radio" name="account-type" id="">Business Partner
+      <label for="#"><input class="inline" type="radio" name="account-type" id="">Business Partner
         Acccount</label>
-      <label for="#"><input type="checkbox" required>I accept the
+      <label for="#"><input class="inline" type="checkbox" required>I accept the
         <a href="https://www.termsandconditionsgenerator.com/">
           terms and conditions</a></label>
     </fieldset>
@@ -48,7 +48,7 @@
           <option value="4" name="Others">Others</option>
         </select>
       </label>
-      <label>
+      <label for="#">
         Provide a bio:
         <textarea rows="3" cols="30"  name="bio" placeholder="I like coding on a rainy day..."></textarea>
       </label>
