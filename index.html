@@ -16,24 +16,57 @@
     <form action="#">
       <!------------------Fieldset 1 First Name, Last Name, Email, Password Fields----------------->
       <fieldset>
-<label for="#">Enter your First Name:<input type="text" required></label><br>
-<label for="#">Enter your Last Name:<input type="text" required></label><br>
-<label for="#">Enter your Email:<input type="email" required></label><br>
-<!--<label for="#">Enter your Password:<input type="password" minlength= "8" required></label><br> ---------->
-<label for="#">Enter your Password:<input type="password" minlength= "8"pattern="[a-z0-5]{8}" required></label><br>
-
+        <label for="#"
+          >Enter your First Name:<input type="text" required /></label
+        >
+        <label for="#"
+          >Enter your Last Name:<input type="text" required /></label
+        >
+        <label for="#">Enter your Email:<input type="email" required /></label
+        >
+        <!--<label for="#">Enter your Password:<input type="password" minlength= "8" required></label><br> ---------->
+        <label for="#"
+          >Enter your Password:<input
+            type="password"
+            minlength="8"
+            pattern="[a-z0-5]{8}"
+            required /></label
+        >
       </fieldset>
       <!------------------Fieldset 2----------------->
       <fieldset>
-<label for="#"><input type="radio" name="account-type" id="">Personal Account</label>
-<label for="#"><input type="radio"name="account-type" id="">Business Partner Acccount</label>
-<label for="#"><input type="checkbox" required>I accept the <a href="#"> terms and conditions</a></label>
+        <label for="#"><input type="radio" name="account-type" id="">Personal
+          Account</label>
+        <label for="#"><input type="radio" name="account-type" id="">Business Partner
+          Acccount</label>
+        <label for="#"><input type="checkbox" required >I accept the
+          <a href="https://www.termsandconditionsgenerator.com/">
+            terms and conditions</a></label>
       </fieldset>
       <!------------------Fieldset 3----------------->
       <fieldset>
+        <label>Upload a profile picture: <input type="file"></label>
+        <label for="#"
+          >Input your age(years):<input type="number" min="13" max="120"
+        /></label>
+        <label>
+          How did you hear form us?
+          <select>
+            <option value="">(select one)</option>
+            <option value="1">News</option>
+            <option value="2">Blogs</option>
+            <option value="3">Forums</option>
+            <option value="4">Others</option>
+          </select>
+        </label>
+        <label for="">
+          Provide a bio:
+          <textarea>
 
-
+          </textarea>
+        </label>
       </fieldset>
+      <input type="submit" value="Submit">
     </form>
   </body>
 </html>
